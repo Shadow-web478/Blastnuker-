@@ -1,0 +1,10 @@
+### 4. **`.gitignore`**
+If you're using version control with Git, you should create a `.gitignore` file to ignore sensitive files and directories.
+
+```plaintext
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore environment variable file
+.env
